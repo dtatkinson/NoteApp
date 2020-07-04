@@ -1,0 +1,33 @@
+head
+{
+
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+ 
+  }
+  
+  .left {
+    height: 850px;
+    top:15%;
+    overflow: scroll;
+    margin:0;
+    width:25%;
+    position:relative;
+
+  }
+  
+  .right {
+    height: 100%;
+    top:100%;
+    margin:0;
+    width:75%;
+    position:relative;
+  }
+
+
+  
+  

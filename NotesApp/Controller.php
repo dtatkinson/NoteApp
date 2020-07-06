@@ -13,7 +13,7 @@ if(!empty($_POST['Title'])){
         $fp = fopen($filename,"wb");
         fwrite($fp,$x);
         fclose($fp);
-        header("Location: Cnote.php");
+        header("Location: index.php");
     }
     elseif($_POST["Dcreate"]!="")
     {
@@ -23,7 +23,7 @@ if(!empty($_POST['Title'])){
         $fp = fopen($filename,"wb");
         fwrite($fp,$x);
         fclose($fp);
-        header("Location: Cnote.php");
+        header("Location: index.php");
     }
 
 //echo $x;

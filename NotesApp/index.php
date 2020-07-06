@@ -85,7 +85,7 @@ var y = <?php echo json_encode($aTime);?>;
 var z = <?php echo json_encode($fLines);?>;
 for(var i=0;i<<?php echo $filecount?>-2;i++)
 {
-  var leftcol = document.getElementById("noteFile").innerHTML +='<div class="card" id='+x[i]+'><div class="card-body"><h5 class="card-title">'+w[i]+'</h5><h6>Date Modified: '+y[i]+'</h6><h6>'+z[i].substring(0,56)+'</h6><br><br><form action="Cnote.php" method="post" id="Open"><input type="text" hidden value="'+x[i]+'" id="F2O" name="F2O"><input type="submit" class="btn btn-primary" value="Open Note"></div></div>'; 
+  var leftcol = document.getElementById("noteFile").innerHTML +='<div class="card" id='+x[i]+'><div class="card-body"><h5 class="card-title">'+w[i]+'</h5><h6>Date Modified: '+y[i]+'</h6><h6>'+z[i].substring(0,56)+'</h6><br><br><form action="index.php" method="post" id="Open"><input type="text" hidden value="'+x[i]+'" id="F2O" name="F2O"><input type="submit" class="btn btn-primary" value="Open Note"></div></div>'; 
 }
 if(selected!="")
 {
